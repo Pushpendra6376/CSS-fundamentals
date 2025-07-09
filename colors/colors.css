@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    background-color: black;
+}
+
+h2{
+    color: #00fff0;
+    background-color: #0000ff;
+}
+
+p{
+    color: rgb(255, 45, 100);
+    background-color: rgb(66, 87, 80);
+}
+
+h3{
+    color: rgba(187, 37, 144, 0.5);
+    background-color: rgba(31, 36, 30, 0.5);
+}
