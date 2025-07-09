@@ -1,0 +1,96 @@
+/* 🔹 Basic Selectors */
+* {
+  font-family: sans-serif;
+}
+
+p {
+  color: navy;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* 🔹 Attribute Selectors */
+input[required] {
+  border: 2px dashed orange;
+}
+
+input[type="email"] {
+  background-color: #e0f7fa;
+}
+
+input[disabled] {
+  opacity: 0.5;
+}
+
+/* 🔹 Pseudo-classes */
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:checked {
+  outline: 2px solid blue;
+}
+
+input:focus {
+  background-color: #f0f8ff;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: darkorange;
+}
+
+li:not(.highlight) {
+  text-decoration: underline;
+}
+
+/* 🔹 Pseudo-elements */
+p::first-letter {
+  font-size: 2em;
+  color: red;
+}
+
+::placeholder {
+  color: gray;
+}
+
+/* 🔹 Combinators */
+div > p {
+  border-left: 3px solid teal;
+  padding-left: 5px;
+}
+
+.box span {
+  color: green;
+}
+
+.sibling-test h2 + p {
+  background-color: lightgray;
+}
+
+.sibling-test h2 ~ p {
+  font-style: italic;
+}
+
+/* 🔹 Grouping Selectors */
+h1, h2 {
+  text-align: center;
+}
