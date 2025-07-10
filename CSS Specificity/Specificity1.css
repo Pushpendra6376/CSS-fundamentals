@@ -1,0 +1,15 @@
+
+/* inline style css > id selector > class selector > element selector */
+/* This is the order of specificity in CSS. The more specific a selector is, the higher its specificity score. */
+
+h2{
+    color: chartreuse;
+}
+
+.h2class{
+    color: red;
+}
+
+#idh2{
+    color: blue;
+}

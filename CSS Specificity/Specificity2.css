@@ -1,0 +1,29 @@
+
+/* inline style css > id selector > class selector > element selector */
+/* This is the order of specificity in CSS. The more specific a selector is, the higher its specificity score. */
+
+
+div#container ul.my-songs li{
+    color: red;
+    background-color: lightgray;
+}
+
+div#container ul.my-songs li.song-item{
+    color: blue;
+    background-color: rgb(13, 145, 48);
+}
+
+
+/* how to calculate specificity: */
+/* 1. Count the number of each type of selector in the rule */
+/* 2. Inline styles have the highest specificity, followed by IDs, classes, and then elements */
+/* 3. Combine the counts into a four-part value: inline styles, IDs, classes, and elements */
+/* Example: */  
+/* inline styles: 1, IDs: 1, classes: 1, elements: 2 */
+/* Specificity value: 1-1-1-2 */
+/* Example: */
+/* inline styles: 0, IDs: 1, classes: 2, elements: 1 */
+/* Specificity value: 0-1-2-1 */
+/* Example: */
+/* inline styles: 0, IDs: 0, classes: 1, elements: 1 */
+/* Specificity value: 0-0-1-1 */
