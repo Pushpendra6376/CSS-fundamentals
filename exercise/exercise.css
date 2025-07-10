@@ -1,0 +1,29 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my-web{
+    width: 1400px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.my-container, div.my-container2 {
+    border: 2px solid rgb(152, 148, 148);
+    padding: 10px;
+}
+
+.my-container{
+    margin-bottom: 40px;
+}
+
+div h2 {
+    text-transform: uppercase;
+    color: #444;
+}
+
