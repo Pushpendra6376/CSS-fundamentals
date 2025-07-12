@@ -1,0 +1,29 @@
+hr{
+    width: 500px;
+    margin-left: 0;
+    border: 0.5px dashed black;
+    margin-top: 10px;
+}
+
+/* bhai isme box sizing ka use kiya gya hai jisme jab bhi hum padding aur border wagera de toh toh bo width hi use kre content ki  */
+
+.box2{
+    box-sizing: border-box;
+    width: 500px;
+    background-color: burlywood;
+    border: 10px solid black;
+    padding: 50px;
+    margin-bottom:  10px;
+
+}
+
+/* in general me box sizing hoti hai bo content box hoti na ki border box */
+
+.box1{
+    box-sizing: content-box;
+    width: 500px;
+    background-color: burlywood;
+    border: 10px solid black;
+    padding: 50px;
+}
+
