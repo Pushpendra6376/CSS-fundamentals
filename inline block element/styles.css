@@ -1,0 +1,21 @@
+/* a{
+    border: 5px solid green;
+    margin:  10px;
+    padding: 10px;
+    height: 100px;
+    width: 100;
+} */
+
+/* abhi ye upar waale me hum change kr rhe hai toh ye changes collaps ho rhe hai toh ab hum iski sahi practise dekhenge */
+
+a{
+    border: 2px solid black;
+    display: inline-block;
+    margin:  10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+
+/* ye iski sahi practise hai  */
