@@ -1,0 +1,23 @@
+body{
+    color: red;
+
+}
+
+/* ab jaise maine body ko color red diya toh jitne bhi child elemenet hai unka color red ho ggtya mtlb jo apne aap pane parent ki css ko khud hi apply kr lete hai  */
+
+.container1{
+    color: green;
+}
+
+.container2{
+    color: blue;
+}
+
+
+/* ##################### text align property ############### */
+
+h1 {
+    background-color: lightblue;
+    width: 500px;
+    text-align: center;
+}
