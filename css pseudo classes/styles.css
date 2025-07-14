@@ -1,0 +1,41 @@
+/* link, :visited, :hover, :active */
+
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: red;
+
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: darkcyan;
+}
+
+hr{
+    color: gray;
+}
+
+/* #####################  more pseudo classes ############ */
+
+input:focus{
+    padding: 5px;
+    color: aquamarine;
+    border: 2px solid blue;
+}
+
+input:required{
+    background-color: brown;
+}
+
+.submit:hover{
+    color:darkcyan;
+    background-color: ivory;
+    border: 2px solid black;
+    border-radius: 5px;
+}
