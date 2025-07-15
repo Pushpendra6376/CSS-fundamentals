@@ -26,7 +26,6 @@ body {
     background: hsl(240, 100%, 50%); /* HSL Color */
     color: hsla(120, 100%, 50%, 0.5); /* HSLA Color */
 }
-```
 # Color Picker Tools
 Aap online color picker tools ka use karke colors ko easily select aur customize kar sakte hain. Ye tools aapko colors ka preview aur unka code bhi provide karte hain.
 # Example of Color Picker Tool
