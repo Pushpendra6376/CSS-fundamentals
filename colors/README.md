@@ -17,7 +17,7 @@ CSS me colors ko alag-alag tarike se define kiya ja sakta hai.
 5. **HSL Colors**: HSL format me colors ko define kiya ja sakta hai. Jaise `hsl(0, 100%, 50%)` red color ko represent karta hai.
 6. **HSLA Colors**: HSLA format me colors ko define kiya ja sakta hai, jisme alpha channel bhi hota hai. Jaise `hsla(0, 100%, 50%, 0.5)` red color ko 50% transparency ke sath represent karta hai.
 # Example of Different Color Formats
-```css
+
 body {
     color: red; /* Named Color */
     background-color: #ff0000; /* Hexadecimal Color */
