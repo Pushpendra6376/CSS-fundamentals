@@ -1,0 +1,15 @@
+
+html{
+    font-size: 10px;
+}
+
+.container1{
+    font-size: 2rem;
+}
+/* 
+rem kuch nhi krta jo root element hota hai uski style ko change krta hai jaise idhar ki hai font size me 
+normally html page ki font size 16 px hoti hai toh rem ka use krke maine abhi uski size ko 2x kr diya hai that means ki fobt size double ho gya hai  */
+
+.text-content{
+    font-size: 3rem;
+}
