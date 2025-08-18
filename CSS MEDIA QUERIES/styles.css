@@ -19,8 +19,26 @@ p{
     html{
         font-size: 5px;
     }
-    
+    body{
+        background-color: lightcoral;
+    }
 
-    
+}
 
+@media (min-width : 501px) and (max-width : 760px){
+    body{
+        background-color: rgb(70, 184, 146);
+    }
+}
+
+@media (min-width : 761px) and (max-width : 1080px){
+    body{
+        background-color: rgb(228, 183, 100);
+    }
+}
+
+@media (min-width : 1081px) and (max-width : 1440px){
+    body{
+        background-color: rgb(168, 78, 131);
+    }
 }
